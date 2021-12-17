@@ -40,5 +40,3 @@ class Directory extends Component {
 }
 
 export default Directory;
-
-export default Directory;
