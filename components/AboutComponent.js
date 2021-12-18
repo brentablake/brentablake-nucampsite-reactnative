@@ -24,7 +24,7 @@ class About extends Component {
     }
 
     render() {
-        const renderPartners = ({ item }) => {
+        const renderPartner = ({ item }) => {
             return (
                 <ListItem
                     title={item.name}
@@ -39,7 +39,7 @@ class About extends Component {
                 <Card title="Community Partners">
                     <FlatList
                         data={this.state.partners}
-                        renderItem={renderPartners}
+                        renderItem={renderPartner}
                         keyExtractor={item => item.id.toString()}>
                     </FlatList>
                 </Card>

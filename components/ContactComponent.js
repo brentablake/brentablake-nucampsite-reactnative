@@ -11,24 +11,22 @@ class Contact extends Component {
             <ScrollView>
                 <Card
                     title="Contact Information"
+                    wrapperStyle={{ margin: 20}}
                 >
-                    <Text wrapperStyle={{ margin: 20 }}>
+                    <Text>
                         1 Nucamp Way
                     </Text>
-                    <Text wrapperStyle={{ margin: 20 }}>
+                    <Text>
                         Seattle, WA 98001
                     </Text>
                     <Text
-                        wrapperStyle={{ margin: 20 }}
                         style={{ marginBottom: 10 }}>
                         U.S.A.
                     </Text>
-                    <Text wrapperStyle={{ margin: 20 }}>
+                    <Text>
                         Phone: 1-206-555-1234
                     </Text>
-                    <Text
-                        wrapperStyle={{ margin: 20 }}
-                        style={{ marginBottom: 10 }}>
+                    <Text>
                         Email: campsites@nucamp.co
                     </Text>
                 </Card>
