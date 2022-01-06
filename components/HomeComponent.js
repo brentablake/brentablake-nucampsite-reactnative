@@ -56,6 +56,7 @@ class Home extends Component {
             {
                 toValue: 1,
                 duration: 1500,
+                delay: 1000,
                 useNativeDriver: true
             }
         ).start();
